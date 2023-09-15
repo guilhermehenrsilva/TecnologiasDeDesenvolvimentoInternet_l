@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <ul data-cpf="132477" data-lastname="Henrique"></ul>
-    <li>Nome: Guilherme</li>
-    <li>Telefone: (35) 9 9223 - 7633</li>
+    <head>
+        <meta charset="UTF-8">
+        <title>Data-*</title>
+    </head>
 
-    <script>
-        const uls = document.querySelectorAll('ul').forEach(ul) => {
+    <body>
+        <ul data-cpf="022392">
+            <li>Nome: Guilherme Henrique</li>
+            <li>Tel.: (35) 9 99223-7633</li>
+        </ul>
 
-      
-            console.log(ul);
-        });
+        <ul data-cpf="150871">
+            <li>Nome: Guilherme</li>
+            <li>Tel.: (35) 99223-7633</li>
+        </ul>
 
-    </script>
-</body>
+        <script>
+            const uls = document.querySelectorAll('ul').forEach((ul) => {
+                console.log(ul.dataset) ;
+            });
+
+        </script>
+    </body>
 </html>
