@@ -1,0 +1,78 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    text-align: center;
+    display: grid;
+}
+
+h1 {
+    color: #111;
+}
+
+div {
+    justify-self: center;
+}
+
+.item_carro_a_venda {
+    background-color: #111;
+    border-radius: 4px;
+    width: 40%;
+    text-align: left;
+    padding: 10px 0 30px 30px;
+    margin: 10px;
+}
+
+.item_carro_a_venda h2 {
+    color: #fff;
+}
+
+.item_carro_a_venda p {
+    color: #b2b2b2;
+}
+
+.item_carro_a_venda span {
+    color: #febe01;
+}
+
+.item_carro_a_venda button {
+    background-color: #febe01;
+    color: #111;
+    height: 35px;
+    width: 130px;
+    border: none;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+img {
+    justify-self: center;
+    margin: 20px 5px;
+    height: 200px;
+    border-radius: 4px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.strada{
+    justify-self: center;
+    margin: 20px 5px;
+    height: 200px;
+    border-radius: 4px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.palio{
+    justify-self: center;
+    margin: 20px 5px;
+    height: 200px;
+    border-radius: 4px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
