@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS’, 'Lucida Sans Unicode’, 'Lucida Grande’, 'Lucida Sans’, Arial, sans-serif;
+    }
+    
+    h1, p, ul{
+    margin: 10px;
+    padding: 10px;
+    }
+    
+    p{
+    margin: 5px;
+    }
+    
+    #first{
+    text-indent: 25px;
+    }
+    
+    #first::first-letter{
+    font-size: 2em;
+    }
+    
+    .highlight{
+    background-color: rgb(181, 181, 39);
+    }
+    
+    li.highlight{
+    font-weight: normal;
+    text-decoration: underline;
+    }
+
+    #idparagrafo.destaque{
+        background-color: purple;
+    }
+
+    .destaque{
+        background-color: blue;
+        font-style: italic;
+    }
+
+     
+
+    li em {
+        color: yellowgreen;
+    }
+
+    div em{
+        color: red;
+    }

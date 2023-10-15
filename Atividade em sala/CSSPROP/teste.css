@@ -1,0 +1,35 @@
+* {
+    padding: 0%;
+    margin: 0px;
+    }
+
+    body{
+        color: #f00;
+    }
+    div{
+     background: #ccc; 
+    padding: 10px;
+    margin: 5px;
+    }
+    
+    p{
+    padding: 5px;
+    /* background: #84E; */
+    margin: 5px 0px 5px 0px;
+    border-top: 0.5px dashed #84f;
+    border-right: 0.5px solid #84f;
+    border-left: 0.5px solid #84f;
+    border-bottom: 0.5px solid #84f;
+    border-left: 0.5px  solid #84f;
+    border-radius: 20px;
+    }
+    
+    h1{
+    padding-bottom: 5px;
+    padding: 10px;
+    }
+
+    img{
+    width: 400px;
+    height: 200px;
+    }
