@@ -1,0 +1,13 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: purple;
+    padding: 5px;
+    gap: 2px;
+}
+.item-grid{
+    color: #fff;
+    background-color: rgba(255 , 255 , 255 , 0.6);
+    /* border: 1px solid lightgray; */
+    text-align: center;
+}
