@@ -1,5 +1,7 @@
 * {
     font-family: Arial;
+    padding: 0 ;
+    margin: 0;
 }
 
 body {
@@ -11,17 +13,36 @@ h1 {
     color: #111;
 }
 
-div {
-    justify-self: center;
+.container {
+    /* justify-self: center; */
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 1px;
+    height: 90vh;
+    padding: 5px;
+    gap: 2px;
+    justify-items: center;
+    align-items: flex-start;
+    
+}
+ 
+.detalhes{
+    text-align: right;
+    display: grid ;
+    flex-direction: column;
+    /* flex-direction: center; */
 }
 
 .item_carro_a_venda {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
     background-color: #111;
-    border-radius: 4px;
-    width: 40%;
-    text-align: left;
-    padding: 10px 0 30px 30px;
-    margin: 10px;
+    border-radius: 20px;
+    width: 95%;
+    border-radius: 10px;
+    margin-top: 10px;
+    
 }
 
 .item_carro_a_venda h2 {
@@ -43,6 +64,7 @@ div {
     width: 130px;
     border: none;
     border-radius: 4px;
+    
 }
 
 a {
@@ -50,7 +72,7 @@ a {
     color: #111;
 }
 
-img {
+img {  /* logo */
     justify-self: center;
     margin: 20px 5px;
     height: 200px;
@@ -60,7 +82,8 @@ img {
 }
 
 .carros{
-    justify-self: center;
+    display: flex;
+    flex-direction: row;
     margin: 20px 5px;
     height: 200px;
     border-radius: 4px;
@@ -68,20 +91,3 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* .palio{
-    justify-self: center;
-    margin: 20px 5px;
-    height: 200px;
-    border-radius: 4px;
-    border: 2px solid white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.gol{
-    justify-self:flex-start;
-    margin: 20px 5px;
-    height: 200px;
-    border-radius: 4px;
-    border: 2px solid white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-} */

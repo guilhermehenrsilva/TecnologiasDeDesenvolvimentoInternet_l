@@ -1,0 +1,115 @@
+* {
+    font-family: Arial;
+    padding: 0 ;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    display: grid;
+}
+
+img {  /* logo */
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px;
+    height: 100px;
+    border-radius: 20%;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    
+}
+button {
+    background-color: greenyellow;
+    width: 10%;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: right;
+
+}
+
+h1 {
+    color: #111;
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container {
+    /* justify-self: center; */
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 1px;
+    height: 90vh;
+    padding: 5px;
+    gap: 2px;
+    justify-items: center;
+    align-items: flex-start;
+    
+}
+ 
+.detalhes{
+    text-align: right;
+    display: grid ;
+    flex-direction: column;
+    /* flex-direction: center; */
+    justify-content: center;
+}
+
+.item_carro_a_venda {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: #111;
+    border-radius: 20px;
+    width: 95%;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+
+.item_carro_a_venda h2 {
+    color: #fff;
+}
+
+.item_carro_a_venda p {
+    color: #b2b2b2;
+}
+
+.item_carro_a_venda span {
+    color: #febe01;
+}
+
+.item_carro_a_venda button {
+    background-color: #febe01;
+    color: #111;
+    height: 35px;
+    width: 130px;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+
+
+.carros{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 5px;
+    height: 200px;
+    border-radius: 4px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
