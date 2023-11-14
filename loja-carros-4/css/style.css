@@ -8,29 +8,45 @@ body {
     text-align: center;
     display: grid;
 }
-
-img {  /* logo */
+nav {
+    display: grid;
+    grid-template-columns: auto auto ;
+   
+}
+.menu {
     display: flex;
-    flex-direction: row;
+    width: 80%;
+    height: 30%;    
+    justify-content: left;
+    padding-top: 80px;
+    padding-left: 100px;
+
+}
+.btnMenu{
+    background-color: greenyellow;
+    width: 100%;
+    border-radius: 5px;
+    /* padding: 20px; */
+    margin-right: 2px;
+    /* text-align: justify; */
+    /* justify-items: center; */
+    
+    
+}
+img {  /* logo */
+    display: grid;
+    flex-direction: start;
     margin: 10px 5px;
-    height: 100px;
-    border-radius: 20%;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
     border: 2px solid white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     
     
 }
-button {
-    background-color: greenyellow;
-    width: 10%;
-}
-.menu {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: right;
 
-}
+
 
 h1 {
     color: #111;
@@ -60,7 +76,10 @@ h1 {
     flex-direction: column;
     /* flex-direction: center; */
     justify-content: center;
+    justify-items: right;
+
 }
+
 
 .item_carro_a_venda {
     display: flex;
@@ -71,7 +90,8 @@ h1 {
     width: 95%;
     border-radius: 10px;
     margin-top: 10px;
-    
+    width: 90%;
+
 }
 
 .item_carro_a_venda h2 {
@@ -113,3 +133,179 @@ a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+@media screen and  (max-width:768px){
+    .container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 1px;
+    height: 90vh;
+    padding: 5px;
+    gap: 2px;
+    justify-items: center;
+    align-items: flex-start;
+    width: 85%;
+    }
+    
+    .item_carro_a_venda {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    flex-direction: row;
+    justify-content: left;
+    background-color: #111;
+    border-radius: 20px;
+    width: 95%;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 75%;
+
+}
+
+.item_carro_a_venda img{
+    display:grid;
+    width:90%;
+    grid-template-columns: repeat(1,1fr);
+    flex-direction: column;
+}
+
+    .detalhes{
+    text-align: right;
+    display: grid ;
+    flex-direction: column;
+    /* grid-template-columns: repeat(1,1fr); */
+    /* flex-direction: center; */
+    justify-content: center;
+    justify-items: right;
+    width:100%;
+}
+    .item_carro_a_venda button {
+    background-color: #febe01;
+    color: #111;
+    height: 35px;
+    width: 90px;
+    border: none;
+    border-radius: 4px;
+    justify-content: center;
+    
+}
+.menu {
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 190px;
+}
+button {
+    background-color: greenyellow;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    
+}
+}
+/* ----------- PARA DISPOSITIVOS MOVEIS ----------- */
+@media screen and  (max-width:480px){
+    nav {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+   
+}
+    h1{
+        display: grid;
+        justify-content:center;
+        padding-right: 100px;
+        
+    }
+    
+    .container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 1px;
+    height: 90vh;
+    padding: 5px;
+    gap: 2px;
+    justify-items: center;
+    align-items: flex-start;
+    width: 85%;
+    }
+    
+    .item_carro_a_venda {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    flex-direction: start;
+    justify-content: left;
+    background-color: #111;
+    border-radius: 20px;
+    width: 95%;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 95%;
+
+}
+
+.item_carro_a_venda img{
+    display:grid;
+    width:90%;
+    grid-template-columns: repeat(1,1fr);
+    flex-direction: column;
+}
+
+    .detalhes{
+    text-align: right;
+    display: grid ;
+    flex-direction: column;
+    /* grid-template-columns: repeat(1,1fr); */
+    /* flex-direction: center; */
+    justify-content: center;
+    justify-items: right;
+    width:100%;
+}
+    .item_carro_a_venda button {
+    background-color: #febe01;
+    color: #111;
+    height: 35px;
+    width: 90px;
+    border: none;
+    border-radius: 4px;
+    justify-items: center;
+    
+}
+.menu {
+    display: grid;
+    grid-template-columns: auto auto ;
+    /* flex-direction: row; */
+    width: 20%;
+    height: 10%;
+    /* justify-content: ; */
+    padding-left: 100px;
+    padding-top: 10px;
+
+}
+.btnMenu{
+    background-color: greenyellow;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    /* padding: 20px; */
+    margin-right: 2px;
+    text-align: center;
+}
+    
+    img {  /* logo */
+    display: grid;
+    flex-direction: center;
+    margin: 10px 5px;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    
+}
+}
+
+
+  
