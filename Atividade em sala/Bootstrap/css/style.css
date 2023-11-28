@@ -1,0 +1,10 @@
+.row{
+    background-color:blue;
+    padding: 5px;
+   
+}
+
+[class^="col"] {
+    background: red;
+    
+}
